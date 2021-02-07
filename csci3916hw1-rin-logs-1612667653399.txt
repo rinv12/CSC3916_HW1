@@ -1,0 +1,12 @@
+2021-02-07T03:00:55.065058+00:00 heroku[web.1]: State changed from up to starting
+2021-02-07T03:00:56.215337+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-02-07T03:00:56.334854+00:00 heroku[web.1]: Process exited with status 143
+2021-02-07T03:00:57.764541+00:00 heroku[web.1]: Starting process with command `node app.js`
+2021-02-07T03:01:00.035253+00:00 app[web.1]: Server listening at 8008
+2021-02-07T03:01:00.646563+00:00 heroku[web.1]: State changed from starting to up
+2021-02-07T03:01:03.787147+00:00 app[web.1]: 
+2021-02-07T03:01:03.793839+00:00 heroku[router]: at=info method=GET path="/" host=csci3916hw1-rin.herokuapp.com request_id=f7ae0d4c-98bd-471b-a888-af6b5f08ec6e fwd="75.71.102.59" dyno=web.1 connect=1ms service=8ms status=200 bytes=94 protocol=https
+2021-02-07T03:01:04.766420+00:00 app[web.1]: 
+2021-02-07T03:01:04.770528+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=csci3916hw1-rin.herokuapp.com request_id=ad98d4c0-3c2c-4822-8bb1-bb497b9cf7cd fwd="75.71.102.59" dyno=web.1 connect=1ms service=2ms status=200 bytes=94 protocol=https
+2021-02-07T03:12:56.187027+00:00 app[web.1]: hello world!!
+2021-02-07T03:12:56.189877+00:00 heroku[router]: at=info method=POST path="/" host=csci3916hw1-rin.herokuapp.com request_id=fc1ddcd2-a6ac-4bd6-9078-a8d5a806a5af fwd="75.71.102.59" dyno=web.1 connect=1ms service=4ms status=200 bytes=108 protocol=https
